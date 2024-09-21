@@ -19,7 +19,7 @@ public class Number {
 
     public Number divide(Number other) {
         if (other.getValue() == 0) {
-            throw new ArithmeticException("Cannot divide by zero");
+            throw new ArithmeticException("На ноль нельзя делить");
         }
         return new Number(this.value / other.getValue());
     }
